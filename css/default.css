@@ -1,0 +1,71 @@
+body {
+	background: #FFFFFF;
+	font: 14px/1.6 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #ccc;
+}
+section {
+	width: 1000px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.form-input, .error {
+	display: block;
+	height: 10px;
+	padding: 6px 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	border-radius:         5px;
+	background-color: #F9F8FF;	
+	width: 200px;
+	border: 2px solid #E8E8E8;
+	color: #000000;
+	position: relative;
+}
+
+.form-btn {
+	padding: 0 15px;
+	height: 30px;
+	font: bold 12px; 
+	text-align: center;
+	background:#0B5BBC;
+	color: #FFFFFF;
+	cursor: pointer;
+	border: 1px solid #0d3d6a;
+	clear: both;	
+	border-radius:         8px;
+	position:relative;
+}
+.form-btn:hover {
+	color: #0012A4;
+	background:#EFEFEF;
+}
+.contact-form {
+	width: 546px;
+	padding: 2px;
+	margin: 0 auto;
+	position: relative;
+	background-color: #CDCDCD;
+	behavior: url(PIE.htc);
+	text-align: left;
+	
+
+}
+.formulario {
+	overflow: hidden;
+	padding: 40px 20px;
+	background-color: #fff;
+}
+label {
+	color: #000000;
+	font-size: 15px;
+}
+label span {
+	color: #ff4141;
+	font-size: 11px;
+}
+h2{
+	color: #0133BB;
+	font-size: 35px;
+}
